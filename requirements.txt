@@ -1,0 +1,20 @@
+kurigram
+tgcrypto
+aiohttp
+psutil
+persiantools
+tzdata
+
+# اختیاری - برای ساخت فایل Word/PDF (اگه لازم نداری می‌تونی این ۴ خط رو کامنت/حذف کنی)
+python-docx
+fpdf2
+arabic-reshaper
+python-bidi
+
+# استریم صدا+تصویر تو ویس‌چت (نیازمند ffmpeg سیستمی - تو nixpacks.toml اضافه شده)
+# نکته: به‌جای py-tgcalls اصلی از basiccalls استفاده شده چون با kurigram (خط اول این فایل)
+# ناسازگاریه که باعث خطای AUTH_KEY_UNREGISTERED موقع phone.JoinGroupCall می‌شه.
+# basiccalls یه فورک از همون کتابخونه‌ست با پچ سازگاری Kurigram، و از namespace
+# "pytgcalls" استفاده می‌کنه پس نیازی به تغییر ایمپورت‌ها تو call_stream.py نیست.
+basiccalls
+yt-dlp
